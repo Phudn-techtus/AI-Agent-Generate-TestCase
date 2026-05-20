@@ -1,0 +1,13 @@
+# Ignore agent context files, except examples
+.agent/context/*
+!.agent/context/*.example.md
+
+# Ignore project input files, except examples
+project/input/**
+!project/input/**/
+!project/input/**/*example*
+
+# Ignore project output files, except examples
+project/output/**
+!project/output/**/
+!project/output/**/*example*
