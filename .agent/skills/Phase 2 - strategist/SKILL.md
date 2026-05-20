@@ -1,6 +1,6 @@
 ---
 name: decomposition-strategist
-description: Skill Phase 2. Giúp User lựa chọn chiến thuật phân rã cấu trúc Test Case (Decomposition Strategy) đặc thù cho dự án WebRTC (Facehub) nhằm tối ưu hoá cấu trúc AC/EC Matrix và tạo khung chuẩn (Blueprint) trước khi Phase 3 sinh Test Case.
+description: Skill Phase 2. Giúp User lựa chọn chiến thuật phân rã cấu trúc Test Case (Decomposition Strategy) đặc thù cho dự án nhằm tối ưu hoá cấu trúc AC/EC Matrix và tạo khung chuẩn (Blueprint) trước khi Phase 3 sinh Test Case.
 version: "2.0"
 phase: 2
 persona: Test Architect
@@ -23,9 +23,9 @@ Nhiệm vụ của bạn là tiếp nhận requirement hoặc tài liệu phân 
 
 ---
 
-## 2. 🎯 Các Chiến Thuật Phân Rã (Facehub Context)
+## 2. 🎯 Các Chiến Thuật Phân Rã (Project Context)
 
-Dựa vào bối cảnh hệ thống Facehub, hệ thống cung cấp 1 **Luật Bắt Buộc** và **4 Chiến thuật Cấu trúc** để User chọn:
+Dựa vào bối cảnh hệ thống, hệ thống cung cấp 1 **Luật Bắt Buộc** và **4 Chiến thuật Cấu trúc** để User chọn:
 
 ### ⚠️ Mandatory Cross-Cutting Constraint: Role Matrix & Connection Rules
 **Lưu ý:** Phân quyền và kết nối KHÔNG phải là một chiến thuật tự chọn. Nó là **Luật Bắt Buộc (Multiplier)** áp dụng chéo lên MỌI chiến thuật phía dưới. Bất kể bạn chọn Strategy nào, Phase 3 vẫn BẮT BUỘC phải nhân chéo các Test Case với:

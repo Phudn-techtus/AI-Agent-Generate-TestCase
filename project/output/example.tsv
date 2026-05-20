@@ -1,0 +1,3 @@
+Test Case ID	Module	Function	Test Type	Test Scenario	Action/Steps	Test Data	Expected Result
+TC_LOGIN_001	Authentication	Login	Happy Path	Login thành công với tài khoản hợp lệ	1. Nhập email hợp lệ\n2. Nhập password hợp lệ\n3. Click [Đăng Nhập]	Email: user@example.com\nPass: admin123	Chuyển hướng đến /dashboard
+TC_LOGIN_002	Authentication	Login	Negative	Báo lỗi khi bỏ trống Email	1. Để trống Email\n2. Nhập password hợp lệ\n3. Click [Đăng Nhập]	Email: (trống)\nPass: admin123	Nút đăng nhập bị disable hoặc báo lỗi
